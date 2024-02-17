@@ -4,7 +4,7 @@ Collection of easing functions for Unity3D (can be easily be used/converted to p
 
 Note : It accepts a normalized 0 - 1 value.
 
-```
+```cs
         public static float Linear(float val)
         {
             return 0 + (1 - 0) * clamp1(val);
