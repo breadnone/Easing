@@ -232,12 +232,15 @@ Note : It accepts a normalized 0 - 1 value.
             }
         }
 
-//Helper functions
+        //Helper functions
         static float clamp0(float lowerbound)
         {
             return lowerbound > 0 ? lowerbound : 0f;
         }
-
+        static float clamp1(float upperbound)
+        {
+            return upperbound < 1 ? upperbound : 1f;
+        }
         static float pow(float input, int length)
         {
             float result = 1.0f;
