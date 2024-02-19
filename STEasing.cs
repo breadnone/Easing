@@ -407,8 +407,6 @@ namespace STEasing
         EaseInOutBack,
         EaseInElastic,
         EaseOutElastic,
-        EaseInOutElastic,
-        EaseLogIn,
-        EaseLogOut
+        EaseInOutElastic
     }
 }
